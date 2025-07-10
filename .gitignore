@@ -1,0 +1,59 @@
+# --- Ignorar entornos virtuales y dependencias ---
+env/
+.venv/
+venv/
+*.env
+*.venv
+
+# --- Ignorar cachés de Python y Jupyter ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.so
+*.dll
+*.dylib
+*.egg-info/
+*.ipynb_checkpoints
+.DS_Store
+
+# --- Ignorar datasets y archivos pesados ---
+data/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# --- Ignorar modelos y resultados ---
+*.pth
+*.h5
+*.ckpt
+*.pt
+*.onnx
+outputs/
+runs/
+logs/
+
+# --- Otros archivos temporales ---
+*.tmp
+*.log
+
+# --- Configuración de Label Studio ---
+mydata/
+label_studio/
+.labelstudio/
+
+# --- Configuración de sistema operativo ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Visual Studio Code ---
+.vscode/
+
+# --- Secretos o archivos sensibles ---
+*.secret
+*.key
+*.pem
